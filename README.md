@@ -17,7 +17,7 @@ go build -ldflags "-s -w"
 ## Sample configuration
 Uses yaml for configuration:
 
-```
+```yaml
 tasks:
   a task:
     rss: http://example.com/rss.xml
